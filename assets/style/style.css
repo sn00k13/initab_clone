@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif, Arial;
 }
 .container{
     height: 100%;
@@ -9,9 +10,11 @@
     display: flex;
 }
 .col1 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
     width: 18%;
+    background-color: #44475A;
+    padding: 10px;
 }
 .col2 {
     border: 1px solid black;
@@ -34,7 +37,7 @@
     width: 100%;
 }
 .iconbox {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 35px;
     width: 35px;
     display: flex;
@@ -43,11 +46,61 @@
     align-items: center;
 }
 .iconsect {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     padding: 10px;
     align-items: center;
+    gap: 10px;
+}
+#settings-icon {
+    background-color: #8BE9FD;
+}
+.settings {
+    color: #8BE9FD;
+    font-weight: bold;
+}
+#gists-icon {
+    background-color: #50FA7B;
+}
+.gists {
+    color: #50FA7B;
+    font-weight: bold;
+}
+#stacks-icon {
+    background-color: #FFB86C;
+}
+.stacks {
+    color: #FFB86C;
+    font-weight: bold;
+}
+#trend-icon {
+    background-color: #FF79C6;
+}
+.trend {
+    color: #FF79C6;
+    font-weight: bold;
+}
+#scratch-icon {
+    background-color: #BD93F9;
+}
+.scratch {
+    color: #BD93F9;
+    font-weight: bold;
+}
+#faq-icon {
+    background-color: #F8F8F2;
+}
+.faq {
+    color: #F8F8F2;
+    font-weight: bold;
+}
+#rate-icon {
+    background-color: #F1FA8C;
+}
+.rate {
+    color: #F1FA8C;
+    font-weight: bold;
 }
