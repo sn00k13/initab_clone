@@ -25,17 +25,20 @@
 .col3 {
     border: 1px solid black;
     height: 100vh;
-    width: 30%;
+    width: 40%;
 }
 .col4 {
     border: 1px solid black;
     height: 100vh;
-    width: 30%;
+    width: 20%;
 }
 .header {
     /* border: 1px solid black; */
     height: 18%;
     width: 100%;
+}
+.header#relevant {
+    height: 30%;
 }
 .content {
     height: 82%;
@@ -43,17 +46,32 @@
     overflow: scroll;
     padding: 10px;
 }
+h1 {
+    font-size: 70px;
+    font-weight: 100;
+}
+a {
+    text-decoration-line: none;
+}
+#content-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    color: white;
+}
 .upper {
     /* border: 1px solid black; */
     width: 100%;
     height: 50%;
     display: flex;
-    align-items: center;
+    margin-top: 30px;
     justify-content: center;
     gap: 10px;
     color: #8BE9FD;
     font-weight: bold;
-    margin-bottom: 30px;
 }
 .lower {
     /* border: 1px solid black; */
@@ -67,6 +85,14 @@
     font-size: 13px;
     color: white;
     font-weight: bold;
+}
+.lowers {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 .activity {
     margin-bottom: 30px;
