@@ -46,8 +46,10 @@
 .content {
     height: 82%;
     width: 100%;
-    overflow: scroll;
     padding: 10px;
+}
+#content-col2 {
+    overflow: scroll;
 }
 h1 {
     font-size: 70px;
