@@ -197,9 +197,16 @@ a {
     align-items: end;
     /* justify-content: center; */
 }
+.foot1:hover, .foot2:hover {
+    color: #F1FA8C;
+    cursor: pointer;
+}
 img {
     width: 90px;
     height: 27px;
+}
+img:hover {
+    color: #F1FA8C;
 }
 
 .iconbox {
@@ -284,6 +291,10 @@ img {
     gap: 5px;
     /* align-items: center; */
     justify-content: flex-start;
+}
+.box1:hover {
+    border-left: 3px solid #50FA7B;
+    cursor: pointer;
 }
 #box1 {
     display: flex;
